@@ -1,0 +1,23 @@
+header {
+    text-align:center;
+}
+
+nav {
+    float:left;
+    width:30%;
+    position:relative;
+}
+
+table {
+    float:left;
+    text-align:left;
+    position:relative;
+    width:40%;
+}
+
+section {
+    float:left;
+    text-align:center;
+    position:relative;
+    width:69%;
+}

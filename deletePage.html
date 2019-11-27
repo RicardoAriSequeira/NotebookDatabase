@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" http-equiv="encoding">
+		<link rel="stylesheet" href="css/mainStyle.css">
+		<title> Remove Page </title>
+	</head>
+	<body>
+		<header>
+			<h2> Remover Página </h2>
+		</header>
+		<nav>
+			<a href="app.html">Home</a> <br>
+            <a href="pages.html">Páginas</a> <br>
+			<a href="newPage.html">Nova Página</a> <br>
+            <a href="newRegType.html">Novo Tipo de Registo</a> <br>
+            <a href="removeRegType.html">Remover Tipo de Registo</a> <br>
+            <a href="newRegField.html">Novo Campo de Registo</a> <br>
+            <a href="removeRegField.html">Remover Campo de Registo</a> <br>
+            <a href="newReg.html">Novo Registo</a> <br>
+		</nav>
+        <form action="php/removePage.php" method="post">
+            <table>
+                <tr>
+                    <td> Nome da Página </td>
+                    <td> <input type="text" name="d_nome"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> <input type="submit" value="Delete"> </td>
+                <tr>
+            </table>
+        </form>
+	</body>
+</html>
